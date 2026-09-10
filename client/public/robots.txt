@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://haikibaksobakar.vercel.app/sitemap.xml
