@@ -1,0 +1,7 @@
+server/
+shared/
+.manus/
+.manus-logs/
+dist/
+node_modules/
+VERIFICATION.md

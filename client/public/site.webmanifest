@@ -7,6 +7,6 @@
   "theme_color": "#ffbf1a",
   "lang": "id",
   "icons": [
-    { "src": "/manus-storage/logo-haki-bakso-bakar_0d01f7b1.png", "sizes": "1254x1254", "type": "image/png", "purpose": "any maskable" }
+    { "src": "/assets/haiki-logo.png", "sizes": "1254x1254", "type": "image/png", "purpose": "any maskable" }
   ]
 }

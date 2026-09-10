@@ -8,28 +8,28 @@ const storySteps = [
     kicker: "01 / MULAI DARI ADONAN",
     title: "Bulatnya serius.",
     copy: "Daging pilihan, bumbu yang berani, dan satu adonan yang siap masuk teflon panas. Kenyalnya dapet, gurihnya nempel.",
-    image: "/manus-storage/hero-tusuk-teflon_023d185b.jpg",
+    image: "/assets/hero-tusuk-teflon.webp",
     accent: "#ffbf1a",
   },
   {
     kicker: "02 / TEFLON DIPANASKAN",
     title: "Aromanya duluan datang.",
     copy: "Bakso kami ditusuk tiga-tiga lalu dipanggang di atas teflon datar sampai permukaannya karamél, sausnya mengilap, dan garis teflonnya keluar.",
-    image: "/manus-storage/tusuk-action-teflon_a488ab55.jpg",
+    image: "/assets/tusuk-action-teflon.webp",
     accent: "#ff5a1f",
   },
   {
     kicker: "03 / SAUS DIKARAMELKAN",
     title: "Manis. Pedas. Nendang.",
     copy: "Saus racikan Haiki disapu ke tiga bakso di setiap tusuk. Setiap lapisan meresap, mengilap, dan menempel di setiap gigitan.",
-    image: "/manus-storage/tusuk-sauce-teflon_e2b629e3.jpg",
+    image: "/assets/tusuk-sauce-teflon.webp",
     accent: "#ed1c24",
   },
   {
     kicker: "04 / ANGKAT DARI TEFLON",
     title: "Sekali gigit, langsung paham.",
     copy: "Bagian luar garing-karamel. Bagian dalam tetap juicy. Inilah bakso bakar teflon yang sausnya nggak cuma lewat di lidah.",
-    image: "/manus-storage/hero-tusuk-teflon_023d185b.jpg",
+    image: "/assets/hero-tusuk-teflon.webp",
     accent: "#f5e7ce",
   },
 ];
@@ -87,7 +87,7 @@ export default function Home() {
 
       <header className="nav-wrap">
         <a className="brand-lockup" href="#top" aria-label="Haiki Bakso Bakar home">
-          <img src="/manus-storage/logo-haki-bakso-bakar_0d01f7b1.png" alt="Haiki Bakso Bakar" />
+          <img src="/assets/haiki-logo.png" alt="Haiki Bakso Bakar" />
         </a>
         <nav className="desktop-nav" aria-label="Navigasi utama">
           <a href="#cerita">Cerita teflon</a>
@@ -165,7 +165,7 @@ export default function Home() {
       </section>
 
       <section id="lokasi" className="final-section">
-        <div className="final-art"><img src="/manus-storage/tusuk-sauce-teflon_e2b629e3.jpg" alt="Tiga bakso per tusuk dipanggang di atas teflon datar dengan saus pedas mengilap" /><div className="final-art-tag">TEFLON<br />MASIH<br />PANAS</div></div>
+        <div className="final-art"><img src="/assets/tusuk-sauce-teflon.webp" alt="Tiga bakso per tusuk dipanggang di atas teflon datar dengan saus pedas mengilap" /><div className="final-art-tag">TEFLON<br />MASIH<br />PANAS</div></div>
         <div className="final-copy">
           <p className="eyebrow"><span className="eyebrow-dot" /> Kapan pun kamu siap</p>
           <h2>Jangan biarkan<br /><em>ngidam</em> jadi wacana.</h2>
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="footer"><img src="/manus-storage/logo-haki-bakso-bakar_0d01f7b1.png" alt="Haiki Bakso Bakar" /><span>© 2026 Haiki Bakso Bakar</span><span>Made over hot teflon, served with attitude.</span></footer>
+      <footer className="footer"><img src="/assets/haiki-logo.png" alt="Haiki Bakso Bakar" /><span>© 2026 Haiki Bakso Bakar</span><span>Made over hot teflon, served with attitude.</span></footer>
     </main>
   );
 }
