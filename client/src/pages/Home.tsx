@@ -87,7 +87,7 @@ export default function Home() {
 
       <header className="nav-wrap">
         <a className="brand-lockup" href="#top" aria-label="Haiki Bakso Bakar home">
-          <img src="/assets/haiki-logo.png" alt="Haiki Bakso Bakar" />
+          <img src="/assets/haiki-logo.png" alt="Haiki Bakso Bakar" width="256" height="256" />
         </a>
         <nav className="desktop-nav" aria-label="Navigasi utama">
           <a href="#cerita">Cerita teflon</a>
@@ -165,17 +165,17 @@ export default function Home() {
       </section>
 
       <section id="lokasi" className="final-section">
-        <div className="final-art"><img src="/assets/tusuk-sauce-teflon.webp" alt="Tiga bakso per tusuk dipanggang di atas teflon datar dengan saus pedas mengilap" /><div className="final-art-tag">TEFLON<br />MASIH<br />PANAS</div></div>
+        <div className="final-art"><img src="/assets/tusuk-sauce-teflon.webp" alt="Tiga bakso per tusuk dipanggang di atas teflon datar dengan saus pedas mengilap" width="1000" height="1000" loading="lazy" /><div className="final-art-tag">TEFLON<br />MASIH<br />PANAS</div></div>
         <div className="final-copy">
           <p className="eyebrow"><span className="eyebrow-dot" /> Kapan pun kamu siap</p>
           <h2>Jangan biarkan<br /><em>ngidam</em> jadi wacana.</h2>
           <p>Haiki siap nemenin malam kamu. Klik, pilih tusukmu, dan kami panggang tiga-tiga di teflon sampai aromanya sampai ke chat.</p>
           <a className="primary-button large" href={WA_LINK} target="_blank" rel="noreferrer"><MessageCircle size={19} /> Chat 0899 3071 991 <ArrowUpRight size={18} /></a>
-          <div className="contact-details"><span><MapPin size={15} /> Jakarta & sekitarnya</span><span><Play size={14} fill="currentColor" /> Open nightly</span></div>
+          <div className="contact-details"><span><MapPin size={15} /> Sewon, Bantul dan sekitarnya</span><span><Play size={14} fill="currentColor" /> Open nightly</span></div>
         </div>
       </section>
 
-      <footer className="footer"><img src="/assets/haiki-logo.png" alt="Haiki Bakso Bakar" /><span>© 2026 Haiki Bakso Bakar</span><span>Made over hot teflon, served with attitude.</span></footer>
+      <footer className="footer"><img src="/assets/haiki-logo.png" alt="Haiki Bakso Bakar" width="256" height="256" loading="lazy" /><span>© 2026 Haiki Bakso Bakar</span><span>Made over hot teflon, served with attitude.</span></footer>
     </main>
   );
 }
